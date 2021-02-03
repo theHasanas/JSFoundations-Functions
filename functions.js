@@ -34,7 +34,7 @@ function isOdd(n) {
  */
 function oddsSmallerThan(n) {
   if (isOdd(n)) {
-    return (n - 1) / 2;
+    return (n + 1) / 2;
   }
 
   return n / 2;
